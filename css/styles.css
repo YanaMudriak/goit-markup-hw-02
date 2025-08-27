@@ -46,7 +46,7 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
-        transition: color 0.2s ease;
+        
 }
 
 .header-menu-item:first-child .header-menu-link:hover,
