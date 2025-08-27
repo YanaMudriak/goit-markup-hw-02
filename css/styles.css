@@ -67,7 +67,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: color 0.2s ease;
+    
 }
 
 .header-contacts-item:first-child .header-contacts-link:hover,
