@@ -26,16 +26,16 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color:#4d5ae5;
 
 }
 
 
 .header-logo-accent {
-    color: #4d5ae5;
+    color: #2E2F42;
 }
     
 .header-menu-link {
@@ -49,18 +49,17 @@ a {
         transition: color 0.2s ease;
 }
 
-.header-menu-link:hover {
-    color: #404BBF;
+.header-menu-item:first-child .header-menu-link:hover,
+.header-menu-item:first-child .header-menu-link:focus {
+    color: #404bbf;
 }
 
-.header-menu-link:focus {
-    color: #404BBF;
-}
 
-/* Контакты */
+
+
 .header-contacts {
     font-style: normal;
-    /* убираем курсив */
+    
 }
 
 .header-contacts-link {
@@ -71,10 +70,11 @@ a {
     transition: color 0.2s ease;
 }
 
-.header-contacts-link:hover,
-.header-contacts-link:focus {
-    color: #404bbf;
+.header-contacts-item:first-child .header-contacts-link:hover,
+.header-contacts-item:first-child .header-contacts-link:focus {
+    color:#404bbf;
 }
+    
 
 
 
@@ -104,13 +104,10 @@ background-color: #2E2F42;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    
 }
 
-.hero .hero-button:hover {
-    background-color: #404BBF;
-}
-
+.hero .hero-button:hover,
 .hero .hero-button:focus {
     background-color: #404BBF;
 }
@@ -242,7 +239,7 @@ background-color: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
