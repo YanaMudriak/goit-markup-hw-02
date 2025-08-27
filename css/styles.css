@@ -21,31 +21,23 @@ a {
     background-color: #FFFFFF;
 }
 
-.header-logo {
 
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-
-    /* line-height: 21px; */
-    line-height: 1.17;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #2e2f42;
 
 }
+
+
 .header-logo-accent {
-    font-family: "raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-    
-        /* line-height: 21px; */
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2E2F42;
-    
+    color: #4d5ae5;
 }
+    
 .header-menu-link {
     font-weight: 500;
         font-size: 16px;
@@ -56,10 +48,13 @@ a {
         color: #2E2F42;
         transition: color 0.2s ease;
 }
-.header-menu-link:hover,
-.header-menu-link:focus {
-    color: #404bbf;
 
+.header-menu-link:hover {
+    color: #404BBF;
+}
+
+.header-menu-link:focus {
+    color: #404BBF;
 }
 
 /* Контакты */
@@ -100,7 +95,7 @@ background-color: #2E2F42;
         color: #FFFFFF;
 }
 
-.hero-button {
+.hero .hero-button {
     background-color: #4D5AE5;
     font-family: inherit;
     font-weight: 500;
@@ -108,16 +103,16 @@ background-color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-
-    
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s ease;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero .hero-button:hover {
     background-color: #404BBF;
-    
+}
+
+.hero .hero-button:focus {
+    background-color: #404BBF;
 }
 
 /*------------------- Features -----------------*/
@@ -126,12 +121,8 @@ background-color: #2E2F42;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
 
     white-space: nowrap;
     clip-path: inset(100%);
@@ -191,7 +182,7 @@ background-color: #2E2F42;
         color: #2E2F42;
 }
 
-.team-position {
+.team-role {
         font-size: 16px;
     
         /* line-height: 24px; */
@@ -248,31 +239,19 @@ background-color: #2E2F42;
 
 
 .footer-logo {
-    
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-
-    /* line-height: 21px; */
-    line-height: 1.17;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
 }
-.footer-logo-accent{
-    font-family: "Raleway", sans-serif;
 
-    font-weight: 700;
-        font-size: 18px;
-    
-        /* line-height: 21px; */
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #F4F4FD;
-    
+
+.footer-logo-accent {
+    color: #F4F4FD;
 }
-
 
     
 .footer-text {
